@@ -1,0 +1,154 @@
+// MAX-WIDTH 1600PX breakpoints START
+@media (max-width: 1600px) {
+}
+// MAX-WIDTH 1600PX breakpoints END
+
+// MAX-WIDTH 1399.98PX breakpoints START
+@media (max-width: 1399.98px) {
+}
+// MAX-WIDTH 1399.98PX breakpoints END
+
+// MAX-WIDTH 1199.98PX breakpoints START
+@media (max-width: 1199.98px) {
+}
+// MAX-WIDTH 1199.98PX breakpoints END
+
+// MAX-WIDTH 991.98PX breakpoints START
+@media (max-width: 991.98px) {
+   .first-page {
+      &__content {
+         padding: 156px 0 30px;
+      }
+      &__container {
+         flex-direction: column;
+      }
+      &__form {
+         padding-right: unset;
+         width: unset;
+         max-width: 335px;
+         margin-bottom: 80px;
+      }
+      &__contacts-block {
+         padding-left: unset;
+         padding-top: 23px;
+         border-top: 3px solid rgba(14, 14, 14, 0.1);
+         border-left: unset;
+         width: unset;
+         max-width: 335px;
+      }
+   }
+   .content {
+      padding: 190px 0 30px;
+   }
+   .back {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+   }
+   .btns-block {
+      flex-direction: column;
+      align-items: center;
+      .btn {
+         &:not(:last-child) {
+            margin-right: unset;
+            margin-bottom: 5px;
+         }
+      }
+   }
+   .reboot,
+   .reboot-complate {
+      &__title {
+         margin-bottom: 43px;
+      }
+   }
+   .contact-us__content {
+      padding-top: 290px;
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints END
+
+// MAX-WIDTH 767.98PX breakpoints START
+@media (max-width: 767.98px) {
+}
+// MAX-WIDTH 767.98PX breakpoints END
+
+// MAX-WIDTH 576.98PX breakpoints START
+@media (max-width: 575.98px) {
+   .first-page {
+      &__content {
+         padding: 40px 0 20px;
+      }
+      &__container {
+         margin-bottom: 30px;
+      }
+      &__title {
+         margin-bottom: 33px;
+      }
+      &__form {
+         margin-bottom: 27px;
+         // padding-right: unset;
+         // width: unset;
+         // max-width: 335px;
+         // margin-bottom: 80px;
+      }
+      &__contacts-block {
+         flex-wrap: wrap;
+         padding-top: 20px;
+      }
+      &__link-facebook {
+         margin-bottom: 15px;
+      }
+   }
+   .plug-the-device {
+      &__title {
+         margin-bottom: 75px;
+      }
+      &__descr {
+         max-width: 145px;
+      }
+   }
+   .back {
+      top: 20px;
+      left: 10px;
+   }
+   .content {
+      padding: 80px 0 20px;
+   }
+   .descr {
+      font-size: 14px;
+   }
+   .image {
+      height: 130px;
+      margin-bottom: 25px;
+   }
+   .connect {
+      &__title {
+         margin-bottom: 35px;
+      }
+      &__descr {
+         max-width: 290px;
+         margin: 0 auto;
+      }
+   }
+   .reboot-complate {
+      &__title {
+         font-size: 36px;
+         max-width: 300px;
+         margin: 0 auto;
+         margin-bottom: 30px;
+         line-height: 36px;
+      }
+   }
+   .video {
+      margin: 0 0 50px;
+   }
+   .contact-us {
+      &__content {
+         padding-top: 130px;
+      }
+      &__descr {
+         margin-bottom: 80px;
+      }
+   }
+}
+// MAX-WIDTH 576.98PX breakpoints END
